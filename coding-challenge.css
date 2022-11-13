@@ -1,0 +1,89 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "lucida console";
+}
+
+.container{
+  width:70%;
+  height: 300px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5%;
+  padding-bottom: 400px;
+  margin-top: 30px;
+}
+
+#heading-logo{
+  text-align: center;
+  height: 160px;
+}
+
+.logo{
+  width: 100px;
+  display: inline-block;
+  padding: 85px;
+  margin-right: 100px;
+}
+
+.logo img{
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.title{
+  text-align: center;
+  color: #00FF00;
+  line-height: 130%;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.1em;
+}
+
+main{
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+
+.button{
+  background-color: #00FF00;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+
+main > div{
+  margin-block-start: 0.83em;
+  line-height: 130%;
+}
+
+.big-test{
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.small-test{
+  font-size: 0.7em;
+}
+
+.orange-line, .green-line, .red-line{
+  height: 20px;
+  border-radius: 5px;
+}
+
+.orange-line{
+  background-color: orange;
+  width: 30%;
+}
+
+.green-line{
+  background-color: green;
+  width: 60%;
+}
+
+.red-line{
+  background-color: red;
+  width: 15%;
+}
